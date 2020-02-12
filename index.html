@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form action="mailto:tal@analink.com" method="POST" class="form-example" enctype="text/plain">
+        <div class="form-example">
+          <label for="name">Your name: </label>
+          <input type="text" name="name" id="name" required>
+        </div>
+
+        <div class="form-example">
+          <label for="email">Your email: </label>
+          <input type="email" name="email" id="email" required>
+        </div>
+
+        <div class="form-example">
+          <label for="title">Title/Position: </label>
+          <input type="text" name="title" id="title" required>
+        </div>
+
+        <div class="form-example">
+            <label for="password">Enter your password: </label>
+            <input type="password" name="password" id="password" required>
+        </div>
+       
+        <div class="form-example">
+            <label for="coname">Your company name: </label>
+            <input type="text" name="coname" id="coname" required>
+          </div>
+  
+          <div class="form-example">
+            <label for="addr1">Street address 1: </label>
+            <input type="text" name="saddrl" id="saddr1" required>
+          </div>
+  
+          <div class="form-example">
+            <label for="addr2">Street address 2: </label>
+            <input type="text" name="saddr2" id="saddr2" required>
+          </div>
+  
+          <div class="form-example">
+              <label for="city">City: </label>
+              <input type="text" name="city" id="city" required>
+          </div>
+  
+          <div class="form-example">
+             <label for="state">State: </label>
+             <input type="text" name="state" id="state" required>
+          </div>
+  
+          <div class="form-example">
+              <label for="zipcode">Zip Code: </label>
+              <input type="number" name="zipcode" id="zipcode" required>
+          </div>
+
+          <div class="form-example">
+            <label for="radio">Radio Button: </label>
+            <input type="radio" name="radio" id="radio">
+        </div>
+
+        <div class="form-example">
+           <label for="range">Range: </label>
+           <input type="range" name="range" id="range">
+        </div>
+
+        <div class="form-example">
+            <label for="search">Search: </label>
+            <input type="search" name="search" id="search">
+        </div>
+  
+        <div class="form-example">
+            <label for="comment">Enter your comments: </label>
+            <textarea  name="search" id="search" rows="5" cols="33">Enter your comments here </textarea>
+        </div>
+        
+        <div class="form-example">
+            <label>Submit</label>
+            <input type="submit" name="">
+        </div>
+    </form>
+</body>
+</html>
